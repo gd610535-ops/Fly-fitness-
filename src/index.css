@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Luxury Gold Gradient */
+.gold-text {
+  background: linear-gradient(to right, #d4af37, #f7e7b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hero Background */
+.hero-bg {
+  background:
+  linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+  url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Card Hover */
+.premium-card {
+  transition: all 0.4s ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-10px);
+  border-color: #d4af37;
+  box-shadow: 0 10px 40px rgba(212,175,55,0.15);
+}
+
+/* Premium Button */
+.premium-btn {
+  transition: all 0.3s ease;
+}
+
+.premium-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.4);
+}
+
+/* Glass Effect */
+.glass-effect {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.08);
+}

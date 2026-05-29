@@ -1,0 +1,6 @@
+{
+  "name": "Fly Fitness",
+  "description": "A premium luxury gym landing page for Fly Fitness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
